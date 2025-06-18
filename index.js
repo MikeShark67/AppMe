@@ -5,5 +5,7 @@ let soma = call.createInterface({
 });
 soma.question("What's your favourite City?", Kisumu => {
   console.log(`Fav City: ${Kisumu}`);
+  
+
   soma.close(2);
 });
